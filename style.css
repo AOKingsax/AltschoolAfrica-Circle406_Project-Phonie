@@ -1,3 +1,161 @@
-h1{
-  color: blue;
+*{
+    background-color: darkslateblue;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
 }
+
+#form{
+    position: relative;
+    top: 100px;
+    left: 425px;
+    padding: 40px;
+    width: 285px;
+    height: 400px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #f0ecf1, #808082);
+}
+@media (max-width: 600px) {
+    #form{
+        position: relative;
+        left: 50px;
+        padding: 10px;
+        width: 76%;
+        border-radius: 8px;
+    }   
+}
+@media (max-width: 300px) {
+    #form{
+        position: relative;
+        left: 20px;
+        width: 80%;
+    }
+}
+
+
+#headline{
+    position: relative;
+    left: 12.5%;
+    padding: 15px;
+    width: 170px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(150, 85, 21);
+}
+
+
+.firstDiv{
+    position: relative;
+    top: 80px;
+    background-color: rgb(150, 85, 21);
+    padding: 12px;
+    border-radius: 15px;
+    height: 220px;
+    width: 260px;
+}
+
+@media (max-width: 300px) {
+    .firstDiv{
+        width: 87%;
+    }
+}
+
+
+.firstP{
+    background: transparent;
+}
+
+.labelOne{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: transparent;
+}
+
+#amount{
+    color: black;
+    font-weight: 500;
+    background-color: white;
+    width: 200px;
+    height: 25px;
+    font-size: 20px;
+}
+
+.secondP{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: transparent;
+}
+.labelTwo{
+    background: transparent;
+    margin-bottom: 0;
+}
+
+#logoInsertion{
+    position: relative;
+    background: transparent;
+    margin-top: -15px;
+}
+
+#pN{
+    color: black;
+    font-weight: 500;
+    background-color: white;
+    width: 200px;
+    height: 25px;
+    font-size: 20px;
+    border: none;
+}
+
+#logo{
+    position: absolute;
+    top: 3px;
+    left: 210px;   
+    width: 20px;
+}
+
+#feedBack{
+    position: absolute;
+    bottom: -20px;
+    left: 0px;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    background: transparent;
+}
+
+button{
+    position: relative;
+    top: 40px;
+    left: 35%;
+    font-weight: 600;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+}
+button > a{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+button > a:active{
+    color: blue;
+    font-weight: 900;
+}
+
+button:active{
+    background-color: white;
+}
+.valid {
+    color: green;
+}
+
+.invalid {
+    color: red;
+}
+

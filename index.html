@@ -4,16 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SchoolStat</title>
-
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
+    <title>Phonie Project</title>
 </head>
 <body>
-<h1>ALTSCHOOL AFRICA SCHOOL OF ENGINEERING STATISTICS</h1>    
-
-
-    <!-- // ============= EEND DO NOT EDIT ============== // -->
-    <script src="index.mjs" type="module"></script>
-    <!-- // ============= EEND DO NOT EDIT ============== // -->
+    <div id="form">
+        <h2 id="headline">BUY AIRTIME</h2>
+        <div class="firstDiv">
+            <p class="firstP">
+                <label class="labelOne">AMOUNT</label></br>
+                <input type="number" id="amount" required>
+            </p>
+            <p class="secondP">
+                <label class="labelTwo">Phone Number</label></br>
+                <div id="logoInsertion">
+                    <input type="tel" id="pN" placeholder="0803-123-4567">
+                    <span id="feedBack"></span>    
+                    <div>
+                        <img id="logo">
+                    </div>
+                </div>            
+            </p>
+            <button onclick="displayMessage()" id="button"><a href="#">TOP UP</a></button>
+        </div>
+    </div>
 </body>
 </html>
